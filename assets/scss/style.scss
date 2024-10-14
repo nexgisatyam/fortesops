@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'header';
+@import 'hero';
+@import 'services';
+@import 'footer';
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.introtext {
+  font-size: 1.2em;
+  padding: 30px 120px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #f7fff2;
+
+  p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: black;
+  }
+}
+
